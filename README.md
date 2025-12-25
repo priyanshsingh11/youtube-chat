@@ -97,27 +97,12 @@ Run the app locally, enter a video link, and start conversing with your favorite
 
 ## 📦 Installation
 
-Clone the repository:
+### Clone the Repository
 
+```bash
 git clone https://github.com/priyanshsingh11/youtube-chat.git
-cd youtube-chatClone the repository:
-git clone https://github.com/priyanshsingh11/youtube-chat.git
-cd youtube-chat
+```
 
-text
-
-Create a virtual environment and install dependencies:
-python -m venv venv
-venv\Scripts\activate # On Windows
-
-or
-source venv/bin/activate # On macOS/Linux
-
-pip install -r requirements.txt
-
-text
-
----
 
 ## 🔐 Environment Setup
 
