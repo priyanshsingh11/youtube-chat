@@ -59,6 +59,46 @@ flowchart TD
     LLM --> RES
 ```
 
+## ⚙️ How It Works
+
+1. **Transcript Extraction** — The system fetches subtitles or transcripts from a chosen YouTube video.  
+2. **Text Preprocessing** — The transcript is segmented into smaller text chunks for efficient search and improved semantic understanding.  
+3. **Embeddings Generation** — Each chunk is transformed into a dense vector using an embedding model and stored in **FAISS**, a fast similarity search engine.  
+4. **Query Processing** — When a user submits a question, it is embedded using the same model.  
+5. **Retrieval-Augmented Generation (RAG)** — The retriever searches FAISS for the most relevant chunks. These are combined with the query to form a context-rich prompt.  
+6. **Response Generation** — The prompt is passed to the LLM (via OpenAI API) to generate a context-grounded response.  
+
+---
+
+## 🖥️ Streamlit Interface
+
+The Streamlit application provides an intuitive and interactive experience:
+
+- Input field for **YouTube Video URL or ID**  
+- **Chat-style input box** for asking questions  
+- **Real-time AI-generated responses**  
+- Clean and minimalistic design for seamless interaction  
+
+Run the app locally, enter a video link, and start conversing with your favorite videos instantly.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit**
+- **LangChain**
+- **OpenAI (LLM & Embeddings)**
+- **FAISS**
+- **YouTube Transcript API**
+- **python-dotenv**
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
 git clone https://github.com/priyanshsingh11/youtube-chat.git
 cd youtube-chatClone the repository:
 git clone https://github.com/priyanshsingh11/youtube-chat.git
