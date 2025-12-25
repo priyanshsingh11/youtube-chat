@@ -15,9 +15,20 @@ The system integrates:
 - YouTube transcript extraction  
 - Vector-based semantic search  
 - Large Language Models (LLMs)  
-- Interactive Streamlit user interface  
+- Interactive Streamlit user interface
 
 ---
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit**
+- **LangChain**
+- **OpenAI (LLM & Embeddings)**
+- **FAISS**
+- **YouTube Transcript API**
+- **python-dotenv**
+
+--- l
 
 ## 🧠 System Architecture
 ```mermaid
@@ -120,16 +131,6 @@ git clone https://github.com/priyanshsingh11/youtube-chat.git
 - ⚙️ **Modular and Scalable Architecture**  
 - ⚡ **Efficient Vector Search** with FAISS  
 
----
-
-## 👤 Author
-
-**Priyansh Singh**  
-*Machine Learning Engineer | AI & Backend Developer*
-
-**GitHub:** [https://github.com/priyanshsingh11](https://github.com/priyanshsingh11)
-
----
 
 > 💡 *“Transforming video knowledge into conversational intelligence.”*
 
@@ -158,19 +159,13 @@ The Streamlit application provides an intuitive and interactive experience:
 Run the app locally, enter a video link, and start conversing with your favorite videos instantly.
 
 ---
-
-## 🛠️ Tech Stack
-
-- **Python**
-- **Streamlit**
-- **LangChain**
-- **OpenAI (LLM & Embeddings)**
-- **FAISS**
-- **YouTube Transcript API**
-- **python-dotenv**
-
 ---
 
-## 📦 Installation
+## 👤 Author
 
-Clone the repository:
+**Priyansh Singh**  
+*Machine Learning Engineer | AI & Backend Developer*
+
+**GitHub:** [https://github.com/priyanshsingh11](https://github.com/priyanshsingh11)
+
+---
