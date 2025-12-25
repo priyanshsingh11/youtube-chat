@@ -103,28 +103,6 @@ Run the app locally, enter a video link, and start conversing with your favorite
 git clone https://github.com/priyanshsingh11/youtube-chat.git
 ```
 
-
-## 🔐 Environment Setup
-
-Create a `.env` file in the project root and add your OpenAI API key:
-
-OPENAI_API_KEY=your_openai_api_key_here
-
-text
-
----
-
-## ▶️ Run the Application
-
-Launch the Streamlit app:
-streamlit run main.py
-
-text
-
-Then open the provided URL in your browser to start using the app.
-
----
-
 ## 📌 Use Cases
 
 - Chat with educational or tutorial YouTube videos  
