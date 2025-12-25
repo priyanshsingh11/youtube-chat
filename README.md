@@ -28,7 +28,7 @@ The system integrates:
 - **YouTube Transcript API**
 - **python-dotenv**
 
---- l
+--- 
 
 ## 🧠 System Architecture
 ```mermaid
@@ -158,7 +158,6 @@ The Streamlit application provides an intuitive and interactive experience:
 
 Run the app locally, enter a video link, and start conversing with your favorite videos instantly.
 
----
 ---
 
 ## 👤 Author
