@@ -20,7 +20,7 @@ The system integrates:
 ---
 
 ## 🧠 System Architecture
-
+```
 %% Ingestion Phase
 A[YouTube Video]
 B[Transcript Extraction]
@@ -54,7 +54,11 @@ RES[Final Answer]
 CXT --> P
 Q --> P
 P --> LLM
-LLM --> RESgit clone https://github.com/priyanshsingh11/youtube-chat.git
+LLM --> RES
+
+```
+
+git clone https://github.com/priyanshsingh11/youtube-chat.git
 cd youtube-chatClone the repository:
 git clone https://github.com/priyanshsingh11/youtube-chat.git
 cd youtube-chat
