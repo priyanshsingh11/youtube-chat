@@ -20,42 +20,43 @@ The system integrates:
 ---
 
 ## 🧠 System Architecture
-```
-%% Ingestion Phase
-A[YouTube Video]
-B[Transcript Extraction]
-C[Text Splitter]
-D[Text Chunks]
-E[Embedding Model]
-F[(FAISS Vector Store)]
+```mermaid
+flowchart TD
 
-A --> B
-B --> C
-C --> D
-D --> E
-E --> F
+    %% Ingestion Phase
+    A[YouTube Video]
+    B[Transcript Extraction]
+    C[Text Splitter]
+    D[Text Chunks]
+    E[Embedding Model]
+    F[(FAISS Vector Store)]
 
-%% Query Phase
-Q[User Question]
-QE[Query Embedding]
-R[Retriever\nSemantic Search]
-CXT[Relevant Chunks\nContext]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
 
-Q --> QE
-QE --> R
-R --> F
-F --> CXT
+    %% Query Phase
+    Q[User Question]
+    QE[Query Embedding]
+    R[Retriever\nSemantic Search]
+    CXT[Relevant Chunks\nContext]
 
-%% LLM Phase
-P[Prompt\nContext + Question]
-LLM[Large Language Model]
-RES[Final Answer]
+    Q --> QE
+    QE --> R
+    R --> F
+    F --> CXT
 
-CXT --> P
-Q --> P
-P --> LLM
-LLM --> RES
+    %% LLM Phase
+    P[Prompt\nContext + Question]
+    LLM[Large Language Model]
+    RES[Final Answer]
 
+    CXT --> P
+    Q --> P
+    P --> LLM
+    LLM --> RES
 ```
 
 git clone https://github.com/priyanshsingh11/youtube-chat.git
